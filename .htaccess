@@ -1,0 +1,2 @@
+RewriteCond %{REQUEST_URI} (.*)
+RewriteRule ^(.*)$ http://nodeukraine.org.ua/ [L,R=301]
